@@ -6,7 +6,7 @@ Nécéssite [yarn](https://yarnpkg.com/) ou [npm](https://docs.npmjs.com/)
 Installer les dépendances et démarrer le serveur.
 
 ```sh
-git clone
+git clone https://github.com/thimothe-das/ferway-test.git
 cd ferway
 yarn install
 yarn start
