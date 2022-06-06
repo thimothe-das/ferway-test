@@ -1,0 +1,101 @@
+[debug] [2022-06-06T17:01:42.194Z] ----------------------------------------------------------------------
+[debug] [2022-06-06T17:01:42.195Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2022-06-06T17:01:42.195Z] CLI Version:   11.0.1
+[debug] [2022-06-06T17:01:42.195Z] Platform:      linux
+[debug] [2022-06-06T17:01:42.195Z] Node Version:  v16.13.0
+[debug] [2022-06-06T17:01:42.196Z] Time:          Mon Jun 06 2022 19:01:42 GMT+0200 (Central European Summer Time)
+[debug] [2022-06-06T17:01:42.196Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-06T17:01:42.201Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-06T17:01:42.201Z] > authorizing via signed-in user (das.thimothe@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/thimothe/Documents/ferway
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-06-06T17:01:55.679Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-06-06T17:01:55.679Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"test_ferway","name":"test_ferway"}
+[debug] [2022-06-06T17:01:56.294Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2022-06-06T17:01:56.295Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"},{"field":"display_name","description":"project display name contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-06-06T17:01:56.352Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:47:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2022-06-06T17:02:33.128Z] ----------------------------------------------------------------------
+[debug] [2022-06-06T17:02:33.130Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2022-06-06T17:02:33.130Z] CLI Version:   11.0.1
+[debug] [2022-06-06T17:02:33.130Z] Platform:      linux
+[debug] [2022-06-06T17:02:33.130Z] Node Version:  v16.13.0
+[debug] [2022-06-06T17:02:33.131Z] Time:          Mon Jun 06 2022 19:02:33 GMT+0200 (Central European Summer Time)
+[debug] [2022-06-06T17:02:33.131Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-06T17:02:33.135Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-06T17:02:33.135Z] > authorizing via signed-in user (das.thimothe@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/thimothe/Documents/ferway
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-06-06T17:02:51.756Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-06-06T17:02:51.756Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"ferwaytest","name":"ferwaytest"}
+[debug] [2022-06-06T17:02:52.502Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2022-06-06T17:02:52.502Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7258907960103686713"}
+[debug] [2022-06-06T17:02:52.503Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7258907960103686713 [none]
+[debug] [2022-06-06T17:02:53.236Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7258907960103686713 200
+[debug] [2022-06-06T17:02:53.236Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7258907960103686713 {"name":"operations/cp.7258907960103686713"}
+[debug] [2022-06-06T17:02:53.738Z] [Project Creation Poller] Retrying task index 0
+[debug] [2022-06-06T17:02:53.738Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7258907960103686713 [none]
+[debug] [2022-06-06T17:02:54.558Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7258907960103686713 200
+[debug] [2022-06-06T17:02:54.558Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7258907960103686713 {"name":"operations/cp.7258907960103686713","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2022-06-06T17:02:55.561Z] [Project Creation Poller] Retrying task index 0
+[debug] [2022-06-06T17:02:55.561Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7258907960103686713 [none]
+[debug] [2022-06-06T17:02:56.432Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7258907960103686713 200
+[debug] [2022-06-06T17:02:56.432Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7258907960103686713 {"name":"operations/cp.7258907960103686713","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"65560012234","projectId":"ferwaytest","lifecycleState":"ACTIVE","name":"ferwaytest","createTime":"2022-06-06T17:02:52.399Z"}}
+[debug] [2022-06-06T17:02:56.433Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/ferwaytest:addFirebase [none]
+[debug] [2022-06-06T17:02:57.202Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/ferwaytest:addFirebase 403
+[debug] [2022-06-06T17:02:57.202Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/ferwaytest:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-06-06T17:02:57.202Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-06-06T17:02:57.247Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:47:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.

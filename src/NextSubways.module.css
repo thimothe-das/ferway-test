@@ -1,0 +1,50 @@
+.background {
+  height: 100vh;
+  display: flex;
+  justify-content: top;
+  background-color: #f3f5f8;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subContainer {
+  gap: 1rem;
+  min-width: 50%;
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: column;
+}
+
+.content {
+  gap: 0.5rem;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  padding: 1.5rem;
+  min-width: 20rem;
+  border-radius: 0.3rem;
+  flex-direction: column;
+  background-clip: border-box;
+  background-color: white;
+}
+
+.schedule {
+  padding: 0.5rem;
+  border-radius: 0.35rem;
+  margin-bottom: 1rem;
+  background-color: #91f545;
+}
+
+.errorContainer {
+  background-color: #f00;
+}
+
+@media screen and (max-width: 900px) {
+  .dropdown {
+    padding: 20px;
+  }
+}
