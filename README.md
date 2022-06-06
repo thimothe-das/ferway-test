@@ -7,7 +7,7 @@ Installer les dépendances et démarrer le serveur.
 
 ```sh
 git clone https://github.com/thimothe-das/ferway-test.git
-cd ferway
+cd ferway-test
 yarn install
 yarn start
 ```
@@ -20,20 +20,20 @@ yarn start
 
 ### 2 difficultés
 
-- Créé des valeurs pars défaut pour les <select/>,
+- Créé des valeurs pars défaut pour les input de sélection
 - Problème de création de projet via le CLI firebase, j'ai du créé mon projet via l'interface graphique pour pouvoir
   déployer l'application
 
 ### 2 réussites
 
-- Le responsive a été très rapide à faire évoluer, juste deux modifications de classe css résolvent
+- Le responsive a été très rapide à faire évoluer, seulement deux modifications de classe css résolvent
   les principaux problèmes
 - Division du code qui permet une meilleure lecture
   (Exemple : chaque useEffect gère leur propre partie dans leur propre component)
 
 ### 2 évolutions possibles
 
-- Pouvoir choisir dans quel sens, on veut les prochaines horaires (A, R ou A+R)
+- Pouvoir choisir dans quel sens, on veut les prochains horaires (A, R ou A+R)
 - Pouvoir utiliser la localisation GPS pour sélectionner automatiquement la station la proche
 
 ## Available Scripts
