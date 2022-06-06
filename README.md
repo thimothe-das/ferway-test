@@ -14,14 +14,14 @@ yarn start
 
 ## Version en ligne
 
-[Application déployé sur Firebase](https://react-ferway.web.app)
+[Application déployée sur Firebase](https://react-ferway.web.app)
 
 ## Bilan
 
 ### 2 difficultés
 
-- Créé des valeurs pars défaut pour les input de sélection
-- Problème de création de projet via le CLI firebase, j'ai du créé mon projet via l'interface graphique pour pouvoir
+- Créé des valeurs par défaut pour les tags html de sélection
+- Problème de création de projet via le CLI firebase, j'ai dû créé mon projet via l'interface graphique pour pouvoir
   déployer l'application
 
 ### 2 réussites
@@ -34,7 +34,7 @@ yarn start
 ### 2 évolutions possibles
 
 - Pouvoir choisir dans quel sens, on veut les prochains horaires (A, R ou A+R)
-- Pouvoir utiliser la localisation GPS pour sélectionner automatiquement la station la proche
+- Pouvoir utiliser la localisation GPS pour sélectionner automatiquement la station la plus proche
 
 ## Available Scripts
 
